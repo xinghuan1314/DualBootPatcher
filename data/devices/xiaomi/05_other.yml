@@ -82,21 +82,21 @@
 
   block_devs:
     base_dirs:
-      - /dev/block/platform/700b0600.sdhci/by-name
+      - /dev/block/platform/sdhci-tegra.3/by-name
     system:
-      - /dev/block/platform/700b0600.sdhci/by-name/system
+      - /dev/block/platform/sdhci-tegra.3/by-name/system
       - /dev/block/mmcblk0p26
     cache:
-      - /dev/block/platform/700b0600.sdhci/by-name/cache
+      - /dev/block/platform/sdhci-tegra.3/by-name/cache
       - /dev/block/mmcblk0p28
     data:
-      - /dev/block/platform/700b0600.sdhci/by-name/data
+      - /dev/block/platform/sdhci-tegra.3/by-name/data
       - /dev/block/mmcblk0p29
     boot:
-      - /dev/block/platform/700b0600.sdhci/by-name/boot
+      - /dev/block/platform/sdhci-tegra.3/by-name/LNX
       - /dev/block/mmcblk0p22
     recovery:
-      - /dev/block/platform/700b0600.sdhci/by-name/recovery
+      - /dev/block/platform/sdhci-tegra.3/by-name/SOS
       - /dev/block/mmcblk0p24
 
   boot_ui:
